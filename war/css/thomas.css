@@ -11,3 +11,15 @@
 .footer p {
   color: #555;
 }
+
+.footer p a {
+	padding-right: 10px;
+}
+
+.page-header {
+	padding-top: 15px;
+}
+
+.topwell {
+	padding-top: 15px;
+}
