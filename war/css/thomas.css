@@ -20,6 +20,16 @@
 	padding-top: 15px;
 }
 
-.topwell {
+.outer-container {
 	padding-top: 15px;
 }
+
+.contactinfo {
+	display: block;
+	float: left;	
+}
+
+img.contactinfo {
+	padding-right: 5px;
+}
+
