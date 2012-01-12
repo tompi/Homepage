@@ -50,4 +50,9 @@
 	padding-right: 5px;	
 }
 
+.contact-cell {
+	padding: 25px;
+	display: block;
+	float: left;
+}
 

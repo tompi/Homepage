@@ -5,7 +5,10 @@
     <title>Thomas Haukland sin fancy hjemmeside</title>
     <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/thomas.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" />    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/js/index.js"></script> 
   </head>
 
   <body>
@@ -24,31 +27,35 @@
     	
   		<div class="top-container">
     	<div class="well outer-contactinfo">
-    		<h3>Familie</h3>
+    		<h4>Familie</h4>
     		<div class="row">
     		
-    		<div class="span-one-third contact-cell">
+    		<div class="contact-cell">
     		<a href="mailto:borgfridmoen@hotmail.com">
-     		<div class="well contact-container">
+    		<div class="contact-container well">
     		<img class="contact-content" src="/images/borgfrid.png"/>
-    		</div>
+    		<h2>Borgfrid</h2>
+			</div>
     		</a>
 			</div>
-			    		
-    		<div class="span-one-third contact-cell">
+			  		
+    		<div class="contact-cell">
     		<a href="mailto:lars.haukland@gmail.com">
      		<div class="well contact-container">
     		<img class="contact-content" src="/images/lars.jpg"/>
+    		<h2>Lars</h2>
     		</div>
     		</a>
 			</div>
 
-    		<div class="span-one-thirdcontact-cell">
+    		<div class="contact-cell">
      		<div class="well contact-container">
     		<img class="contact-content" src="/images/jon.jpg"/>
+    		<h2>Jon Camilo</h2>
     		</div>
     		</div>    		
     		</div>
+    		
     	</div>
     	</div>
     	
@@ -58,7 +65,7 @@
     		<h3>Kontaktinformasjon</h3>
     		<div class="row">
     		
-    		<div class="span-one-third contact-cell">
+    		<div class="contact-cell">
     		<a href="mailto:thomas.haukland@gmail.com">
      		<div class="well contact-container">
     		<img class="contact-content" src="/images/icons/location-email-icon.png"/>
@@ -67,8 +74,8 @@
     		</a>
 			</div>
 			    		
-    		<div class="span-one-third contact-cell">
-    		<a href="phone:+4790786985">
+    		<div class="contact-cell">
+    		<a href="tel:+4790786985">
      		<div class="well contact-container">
     		<img class="contact-content" src="/images/icons/phone-icon.png"/>
     		<span class="contact-content">+47 <strong>90 78 69 85</strong></span>
@@ -76,7 +83,7 @@
     		</a>
 			</div>
 
-    		<div class="span-one-thirdcontact-cell">
+    		<div class="contact-cell">
     		<a href="http://maps.google.no/maps?q=korvettveien+53&hl=no&ll=58.101831,7.949638&spn=0.129531,0.41851&sll=61.143235,9.09668&sspn=14.222854,53.569336&vpsrc=6&hnear=Korvettveien+53,+4624+Kristiansand,+Vest-Agder&t=m&z=12">
      		<div class="well contact-container">
     		<img class="contact-content" src="/images/icons/house-icon.png"/>
@@ -101,5 +108,8 @@
     		</p>
     	</div>
     </footer>
+    <div id="facebookimg" style="display: none;">
+    	<img src="/images/facebook.JPG"/>
+    </div>
   </body>
 </html>
