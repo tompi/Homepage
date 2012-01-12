@@ -1,3 +1,8 @@
+.top-picture {
+	display: block;
+	float: right;
+}
+
 .footer {
   background-color: #eee;
   min-width: 940px;
@@ -17,19 +22,32 @@
 }
 
 .page-header {
-	padding-top: 15px;
+	display: block;
+	float: left;
 }
 
-.outer-container {
+
+
+.top-container {
 	padding-top: 15px;
+	padding-bottom: 15px;
+	clear: both;
 }
 
-.contactinfo {
+.contact-content {
 	display: block;
 	float: left;	
+	text-align: center;
 }
 
-img.contactinfo {
-	padding-right: 5px;
+.contact-container:hover {
+	background-color: #9bbf85;
 }
+.contact-container {
+	width: 220px;
+	display: block;
+	float: left;
+	padding-right: 5px;	
+}
+
 

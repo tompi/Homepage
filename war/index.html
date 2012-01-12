@@ -5,45 +5,82 @@
     <title>Thomas Haukland sin fancy hjemmeside</title>
     <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/thomas.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
   </head>
 
   <body>
-  	<div class="container outer-container">
+  	<div class="container outer-container ">
+  		<div class="top-container">
   		<div class="well page-header">
+  			<img src="/images/meg.png" class="top-picture"/>
     		<h1>Thomas Haukland <small>data-nerd, amatør bridgespiller og familiefar</h1>
     		<p>
     		Du har på et eller annet vis kommet til min hjemmeside, som ikke handler om så mye annet enn meg...     
     		Jeg bor i Kristiansand
     		sammen med Borgfrid, Lars og Jon, og jobber med data i <a href="http://www.bouvet.no">Bouvet</a>.
-    		</p>   
+    		</p>
+    	</div>   
     	</div>
-    	<div class="well contactinfo">
-    		<h3>Kontaktinformasjon</h3>
+    	
+  		<div class="top-container">
+    	<div class="well outer-contactinfo">
+    		<h3>Familie</h3>
     		<div class="row">
     		
-    		<div class="span-one-third">
-    		<a href="mailto:thomas.haukland@gmail.com">
-     		<div class="well contactinfo">
-    		<img class="contactinfo" src="/images/icons/location-email-icon.png"/>
-    		thomas.haukland@gmail.com
+    		<div class="span-one-third contact-cell">
+    		<a href="mailto:borgfridmoen@hotmail.com">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/borgfrid.png"/>
     		</div>
     		</a>
 			</div>
 			    		
-    		<div class="span-one-third">
-    		<a href="phone:+4790786985">
-     		<div class="well contactinfo">
-    		<img class="contactinfo" src="/images/icons/phone-icon.png"/>
-    		+47 90 78 69 85
+    		<div class="span-one-third contact-cell">
+    		<a href="mailto:lars.haukland@gmail.com">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/lars.jpg"/>
     		</div>
     		</a>
 			</div>
 
-    		<div class="span-one-third">
+    		<div class="span-one-thirdcontact-cell">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/jon.jpg"/>
+    		</div>
+    		</div>    		
+    		</div>
+    	</div>
+    	</div>
+    	
+    	
+  		<div class="top-container">
+    	<div class="well outer-contactinfo">
+    		<h3>Kontaktinformasjon</h3>
+    		<div class="row">
+    		
+    		<div class="span-one-third contact-cell">
+    		<a href="mailto:thomas.haukland@gmail.com">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/icons/location-email-icon.png"/>
+    		<span class="contact-content">thomas.haukland@gmail.com</span>
+    		</div>
+    		</a>
+			</div>
+			    		
+    		<div class="span-one-third contact-cell">
+    		<a href="phone:+4790786985">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/icons/phone-icon.png"/>
+    		<span class="contact-content">+47 <strong>90 78 69 85</strong></span>
+    		</div>
+    		</a>
+			</div>
+
+    		<div class="span-one-thirdcontact-cell">
     		<a href="http://maps.google.no/maps?q=korvettveien+53&hl=no&ll=58.101831,7.949638&spn=0.129531,0.41851&sll=61.143235,9.09668&sspn=14.222854,53.569336&vpsrc=6&hnear=Korvettveien+53,+4624+Kristiansand,+Vest-Agder&t=m&z=12">
-     		<div class="well contactinfo">
-    		<img class="contactinfo" src="/images/icons/house-icon.png"/>
-    		<span class="contactinfo">
+     		<div class="well contact-container">
+    		<img class="contact-content" src="/images/icons/house-icon.png"/>
+    		<span class="contact-content">
     			Korvettveien 53<br/>
     			4624 Kristiansand
     		</span>
@@ -53,13 +90,14 @@
     		
     		</div>
     	</div>
+    	</div>
     </div>
     
     <footer class="footer">
     	<div class="container">
     		<p>
-    		<a href="#"><img src="images/icons/facebook.png" alt="Facebook"/></a>
-    		<a href="#"><img src="images/icons/woofer.png" alt="Woofer"/></a>
+    		<a id="facebook" href="#"><img src="images/icons/facebook.png" alt="Facebook"/></a>
+    		<a href="http://woofertime.com"><img src="images/icons/woofer.png" alt="Woofer"/></a>
     		</p>
     	</div>
     </footer>
